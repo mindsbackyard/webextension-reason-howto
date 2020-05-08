@@ -1,0 +1,22 @@
+{
+    "name": "part-3-borderify-re-webhelper",
+    "version": "0.1.0",
+    "scripts": {
+        "build": "bsb -make-world",
+        "start": "bsb -make-world -w",
+        "clean": "bsb -clean-world"
+    },
+    "keywords": [
+        "BuckleScript"
+    ],
+    "author": "",
+    "license": "MIT",
+    "devDependencies": {
+        "bs-platform": "^7.2.2",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11"
+    },
+    "dependencies": {
+        "bs-webapi": "^0.15.9"
+    }
+}
